@@ -86,7 +86,7 @@ int main( int argc, char *argv[] )
                 printf("Recover:\n");
                 printf("./hw0401 -r [output file] [small files]:\n");
                 printf("The input small files may not be in order.\n");
-                break;
+                return 0;
             case 'r':
                 input = fopen( argv[2] , "wb+" );
                 int max = 0;
