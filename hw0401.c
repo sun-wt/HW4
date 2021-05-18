@@ -12,7 +12,7 @@ typedef struct _info
 struct option long_options[] = 
 {  
      { "size", 1, NULL, 'S' },
-     { "help", 1, NULL, 'h' },   
+     { "help", 0, NULL, 'h' },   
      { "s", 1, NULL, 's' },  
      { "r", 1, NULL, 'r' }, 
 
