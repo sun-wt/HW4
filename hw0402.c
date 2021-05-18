@@ -33,7 +33,7 @@ int main(  int argc , char *argv[] )
                 printf( "./hw0402 -h\n" );
                 printf( "./hw0402 --help\n" );
                 printf( "Display this help manual.\n" );
-                break;
+                ;
             case 'l':
                 option = argv[2][0] -48;
                 //printf( "%d\n" , option );
